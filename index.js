@@ -131,3 +131,21 @@ while (i2>=0) {
     i2--;
 }
 //10. 配列のループ処理
+let numbers =["りす","うさぎ","しか","くま","つきのわ",];
+numbers.forEach(num => console.log(num));
+
+// 1. 書き込む場所（親玉）を捕まえます
+const container2 = document.getElementById("arraytoloop");
+
+// 2. forEachを使って、1匹ずつ処理します
+numbers.forEach(num => {
+    // コンソールに出す（今まで通り）
+    console.log(num);
+    // --- ここからHTMLへの書き出し ---
+    // 3. 新しい div を作る
+    const animalDiv = document.createElement("div");
+    // 4. 中身に動物の名前を入れる
+    animalDiv.innerText = num;
+    // 5. 親玉（arraytoloop）の中に追加する
+    container2.appendChild(animalDiv);
+});
