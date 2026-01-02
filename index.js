@@ -86,3 +86,16 @@ function double(num){
 let resultnum = double(orinum);
 console.log(resultnum);
 document.getElementById("resnum").innerText = resultnum;
+
+//Q8 「数値が奇数なら “奇数”、偶数なら “偶数” と表示してください。」
+
+let theNum = "24";
+if (theNum % === 0) {
+    const result = "偶数";
+} else {
+    const result = "奇数";
+}
+
+console.log(result);
+document.getElementById("od_or_ev").innerText =result;
+
