@@ -22,3 +22,11 @@ document.getElementById("amari").innerText = suuji1 % suuji2;
 console.log(suuji1 & suuji2);
 document.getElementById("ando").innerText = suuji1 & suuji2;
 
+//Q3
+const num=5;
+const text="Javascript";
+console.log(typeof num);
+console.log(typeof text);
+document.getElementById("num").innerText = typeof num;
+document.getElementById.apply("text").innerText =typeof text;
+
