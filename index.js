@@ -104,7 +104,17 @@ document.getElementById("od_or_ev").innerText =result;
 
 //Q9 while文
 let i=1
+// 1. 修正したID「loop」で親玉を捕まえます
+const loopcontainer = document.getElementById("loop");
 while (i<=5) {
     console.log(i);
+    // 3. 新しい div を作成
+    const loopDiv = document.createElement("div");
+    // 4. IDを "loop_1", "loop_2"... と設定
+    loopDiv.id = "loop_" + i;
+    // 5. 中身にループ回数を入れる
+    loopDiv.innerText = "LOOPが" + i + "回";
+    // 6. 親玉（fruitarray）の中に追加
+    loopcontainer.appendChild(loopDiv);
     i++
 }
