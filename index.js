@@ -52,17 +52,12 @@ if (yourScore >=80) {
 //Q5
 //「1から5までの数値を順に表示してください。」
 //条件が成立している（True）の間だけはこのループを走る
-// 1. まず、表示先の「親玉（入れ物）」を一度だけ捕まえます
-const container = document.getElementById("1to5");
-for(let i=1; i<=5; i++){
-    console.log(i);
-// 2. 新しい「div」というお皿（要素）をメモリの中に作成します
+const q5Area = document.getElementById("q5-area");
+for (let i = 1; i <= 5; i++) {
     const newLine = document.createElement("div");
-    // 3. そのお皿に、今の数字「i」を書き込みます
-    newLine.innerText = i + " 行目です";
-    // 4. 親玉（container）の中に、今作ったお皿を追加します（配膳！）
-    container.appendChild(newLine);
-}
+    newLine.id = "1to5_" + i;
+    newLine.innerText = i + " 回目のループ";
+    q5Area.appendChild(newLine); // 専用の箱の中に入れる
 //Q6
 let fruits = ["apple","banana","grape"];
 console.log(fruits);
