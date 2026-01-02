@@ -52,6 +52,6 @@ if (yourScore >=80) {
 
 //「1から5までの数値を順に表示してください。」
 //条件が成立している（True）の間だけはこのループを走る
-for (let index = 0; index <=5; index++) {
-    console.log(index);
+for(i=1; i<=5; i++){
+    console.log(i);
 }
