@@ -122,6 +122,6 @@ while (i<=5) {
 let i2=100;
 while (i2>=0) {
     console.log(i2);
-    i2--
+    i2--;
 }
 //10. 配列のループ処理
