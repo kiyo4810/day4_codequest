@@ -54,4 +54,5 @@ if (yourScore >=80) {
 //条件が成立している（True）の間だけはこのループを走る
 for(let i=1; i<=5; i++){
     console.log(i);
+    document.getElementById("1to5").innerText =i;
 }
