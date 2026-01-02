@@ -21,6 +21,7 @@ console.log(suuji1 % suuji2);
 document.getElementById("amari").innerText = suuji1 % suuji2;
 console.log(suuji1 & suuji2);
 document.getElementById("ando").innerText = suuji1 & suuji2;
+//コンソールはまとめて表示もできる。
 console.log(suuji1 + suuji2, suuji1 - suuji2, suuji1 * suuji2, suuji1 / suuji2, suuji1 % suuji2, suuji1 & suuji2);
 document.getElementById("calAll").innerText = (suuji1 + suuji2) + "と" + (suuji1 - suuji2) + "とその他計算結果";
 
@@ -31,6 +32,10 @@ const num=5;
 const text="Javascript";
 console.log(typeof num);
 console.log(typeof text);
+console.log(typeof num, typeof text);
+
 document.getElementById("num").innerText = typeof num;
-document.getElementById("text").innerText =typeof text;
+document.getElementById("text").innerText = typeof text;
+document.getElementById("num_and_text").innerText = (typeof num)+(typeof text);
+
 
