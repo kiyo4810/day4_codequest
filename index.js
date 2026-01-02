@@ -21,6 +21,10 @@ console.log(suuji1 % suuji2);
 document.getElementById("amari").innerText = suuji1 % suuji2;
 console.log(suuji1 & suuji2);
 document.getElementById("ando").innerText = suuji1 & suuji2;
+console.log(suuji1 + suuji2, suuji1 - suuji2, suuji1 * suuji2, suuji1 / suuji2, suuji1 % suuji2, suuji1 & suuji2);
+document.getElementById("calAll").innerText = (suuji1 + suuji2) + "と" + (suuji1 - suuji2) + "とその他計算結果";
+
+
 
 //Q3
 const num=5;
