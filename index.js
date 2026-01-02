@@ -38,4 +38,12 @@ document.getElementById("num").innerText = typeof num;
 document.getElementById("text").innerText = typeof text;
 document.getElementById("num_and_text").innerText = (typeof num)+(typeof text);
 
-
+//Q4
+let yourScore = 81;
+if (yourScore >=80) {
+    console.log ("合格");
+    document.getElementById("okornot").innerText = "合格"
+} else {
+    console log ("不合格");
+    document.getElementById("okornot").innerText = "不合格"
+}
