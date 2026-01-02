@@ -119,4 +119,9 @@ while (i<=5) {
     loopcontainer.appendChild(loopDiv);
     i++;
 }
+let i2=100;
+while (i2>=0) {
+    console.log(let);
+    i2--
+}
 //10. 配列のループ処理
