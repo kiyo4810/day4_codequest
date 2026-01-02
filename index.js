@@ -58,6 +58,7 @@ for (let i = 1; i <= 5; i++) {
     newLine.id = "1to5_" + i;
     newLine.innerText = i + " 回目のループ";
     q5Area.appendChild(newLine); // 専用の箱の中に入れる
+}
 //Q6
 let fruits = ["apple","banana","grape"];
 console.log(fruits);
