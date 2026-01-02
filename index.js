@@ -39,7 +39,7 @@ document.getElementById("text").innerText = typeof text;
 document.getElementById("num_and_text").innerText = (typeof num)+(typeof text);
 
 //Q4
-let yourScore = 81;
+let yourScore = 79;
 document.getElementById("yrscr").innerText = yourScore;
 
 if (yourScore >=80) {
