@@ -40,6 +40,8 @@ document.getElementById("num_and_text").innerText = (typeof num)+(typeof text);
 
 //Q4
 let yourScore = 81;
+document.getElementById("yrscr").innerText = yourScore;
+
 if (yourScore >=80) {
     console.log ("合格");
     document.getElementById("okornot").innerText = "合格"
