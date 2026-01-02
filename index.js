@@ -28,5 +28,5 @@ const text="Javascript";
 console.log(typeof num);
 console.log(typeof text);
 document.getElementById("num").innerText = typeof num;
-document.getElementById.apply("text").innerText =typeof text;
+document.getElementById("text").innerText =typeof text;
 
