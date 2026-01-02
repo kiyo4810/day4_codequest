@@ -66,6 +66,7 @@ console.log(fruits);
 const fruitContainer = document.getElementById("fruitarray");
 
 // 2. フルーツの数だけループ
+//fruits.length のlengthは後ろにカッコがないのでプロパティ
 for (let i = 0; i < fruits.length; i++) {
     // 3. 新しい div を作成
     const fruitDiv = document.createElement("div");
@@ -118,3 +119,4 @@ while (i<=5) {
     loopcontainer.appendChild(loopDiv);
     i++;
 }
+//10. 配列のループ処理
