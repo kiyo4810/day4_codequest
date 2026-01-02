@@ -127,7 +127,7 @@ while (i2>=0) {
     const newLine =document.createElement("div");
     newLine.id = "count" +i;
     newLine.innerText = "ループ" + i + "回目です";
-    container.appendChild("newLine");
+    container.appendChild(newLine);
     i2--;
 }
 //10. 配列のループ処理
