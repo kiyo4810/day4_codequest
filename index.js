@@ -49,7 +49,7 @@ if (yourScore >=80) {
     console.log("不合格");
     document.getElementById("okornot").innerText = "不合格";
 }
-
+//Q5
 //「1から5までの数値を順に表示してください。」
 //条件が成立している（True）の間だけはこのループを走る
 // 1. まず、表示先の「親玉（入れ物）」を一度だけ捕まえます
@@ -63,3 +63,6 @@ for(let i=1; i<=5; i++){
     // 4. 親玉（container）の中に、今作ったお皿を追加します（配膳！）
     container.appendChild(newLine);
 }
+//Q6
+let fruits = ["apple","banana","grape"];
+console.log(fruits);
