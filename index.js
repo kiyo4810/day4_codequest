@@ -98,5 +98,7 @@ if (theNum % 2 === 0) {
 }
 
 console.log(result);
+console.log("そうか、コンソールログにメモ的に直テキストを書いてもいいんだな");
+
 document.getElementById("od_or_ev").innerText =result;
 
