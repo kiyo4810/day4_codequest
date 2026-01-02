@@ -120,8 +120,14 @@ while (i<=5) {
     i++;
 }
 let i2=100;
+const container = document.getElementById("cdto100");
 while (i2>=0) {
     console.log(i2);
+    //新しい行を作る
+    const newLine =document.createElement("div");
+    newLine.id = "count" +i;
+    newLine.innerText = "ループ" + "回目です";
+    container.appendChild("newLine");
     i2--;
 }
 //10. 配列のループ処理
