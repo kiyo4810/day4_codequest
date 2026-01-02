@@ -125,8 +125,8 @@ while (i2>=0) {
     console.log(i2);
     //新しい行を作る
     const newLine =document.createElement("div");
-    newLine.id = "count" +i;
-    newLine.innerText = "ループ" + i + "回目です";
+    newLine.id = "count" +i2;
+    newLine.innerText = "ループ" + i2 + "回目です";
     container.appendChild(newLine);
     i2--;
 }
