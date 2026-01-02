@@ -49,3 +49,8 @@ if (yourScore >=80) {
     console.log("不合格");
     document.getElementById("okornot").innerText = "不合格";
 }
+
+//「1から5までの数値を順に表示してください。」
+for (let index = 0; 5; index++) {
+    console.log(index);
+}
