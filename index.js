@@ -62,3 +62,17 @@ for (let i = 1; i <= 5; i++) {
 //Q6
 let fruits = ["apple","banana","grape"];
 console.log(fruits);
+// 1. 修正したID「fruitarray」で親玉を捕まえます
+const fruitContainer = document.getElementById("fruitarray");
+
+// 2. フルーツの数だけループ
+for (let i = 0; i < fruits.length; i++) {
+    // 3. 新しい div を作成
+    const fruitDiv = document.createElement("div");
+    // 4. IDを "fruit_1", "fruit_2"... と設定
+    fruitDiv.id = "fruit_" + (i + 1);
+    // 5. 中身にフルーツ名を入れる
+    fruitDiv.innerText = fruits[i];
+    // 6. 親玉（fruitarray）の中に追加
+    fruitContainer.appendChild(fruitDiv);
+}
