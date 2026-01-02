@@ -114,7 +114,7 @@ while (i<=5) {
     loopDiv.id = "loop_" + i;
     // 5. 中身にループ回数を入れる
     loopDiv.innerText = "LOOPが" + i + "回";
-    // 6. 親玉（fruitarray）の中に追加
+    // 6. 親玉（loop）の中に追加
     loopcontainer.appendChild(loopDiv);
     i++;
 }
