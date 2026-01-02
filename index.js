@@ -76,3 +76,13 @@ for (let i = 0; i < fruits.length; i++) {
     // 6. 親玉（fruitarray）の中に追加
     fruitContainer.appendChild(fruitDiv);
 }
+
+//Q7 「引数に渡した数値を2倍にして返す関数 double を作成してください。」
+
+let orinum = "33";
+function double(num){
+    return num *2;
+}
+let resultnum = double(orinum);
+console.log(resultnum);
+document.getElementById("resnum").innerText = resultnum;
