@@ -44,8 +44,8 @@ document.getElementById("yrscr").innerText = yourScore;
 
 if (yourScore >=80) {
     console.log("合格");
-    document.getElementById("okornot").innerText = "合格"
+    document.getElementById("okornot").innerText = "合格";
 } else {
-    console log("不合格");
-    document.getElementById("okornot").innerText = "不合格"
+    console.log("不合格");
+    document.getElementById("okornot").innerText = "不合格";
 }
