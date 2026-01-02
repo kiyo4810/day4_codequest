@@ -102,3 +102,9 @@ console.log("そうか、コンソールログにメモ的に直テキストを�
 
 document.getElementById("od_or_ev").innerText =result;
 
+//Q9 while文
+let i=1
+while (i<=5) {
+    console.log(i);
+    i++
+}
