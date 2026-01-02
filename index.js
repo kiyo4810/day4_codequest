@@ -116,5 +116,5 @@ while (i<=5) {
     loopDiv.innerText = "LOOPが" + i + "回";
     // 6. 親玉（fruitarray）の中に追加
     loopcontainer.appendChild(loopDiv);
-    i++
+    i++;
 }
