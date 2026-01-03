@@ -174,6 +174,6 @@ maxnumDiv.innerText = Math.max(...numarray);
 container4.appendChild(maxnumDiv);
 
 //「オブジェクト person に name と age を追加し、表示してください。」
-//オブジェクトを作るときは{}を使う
+//オブジェクトを作るときは{}を使うよ
 let person = { nameP: "山田", ageP: 65 };
 console.log(person);
