@@ -165,8 +165,16 @@ container3.appendChild(ojiwakateDiv);
 
 //12. 配列から最大値を探す
 let numarray = [3, 4, 56, 7, 43, 25, 44, 67];
+// ... をつけることで、配列の中身をバラバラにして渡せます！
 console.log(Math.max(...numarray));
 const container4 = document.getElementById("mathmax");
 const maxnumDiv = document.createElement("div");
+// ... をつけることで、配列の中身をバラバラにして渡せます！
 maxnumDiv.innerText = Math.max(...numarray);
 container4.appendChild(maxnumDiv);
+
+//「オブジェクト person に name と age を追加し、表示してください。」
+//オブジェクトを作るときは{}を使う
+let person ={nameP="山田", ageP=65}
+console.log(person);
+
