@@ -158,3 +158,7 @@ numbers.forEach((num) => {
 //11. 三項演算子
 let age = 52;
 console.log(age >= 50 ? "おじ" : "若手");
+const container3 = document.getElementById("3kou");
+const ojiwakateDiv = document.createElement("div");
+ojiwakateDiv.innerText = age >= 50 ? "おじ" : "若手";
+container3.appendChild(ojiwakateDiv);
