@@ -175,6 +175,5 @@ container4.appendChild(maxnumDiv);
 
 //「オブジェクト person に name と age を追加し、表示してください。」
 //オブジェクトを作るときは{}を使う
-let person ={nameP="山田", ageP=65};
+let person = { nameP: "山田", ageP: 65 };
 console.log(person);
-
