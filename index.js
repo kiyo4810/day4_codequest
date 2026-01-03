@@ -165,4 +165,8 @@ container3.appendChild(ojiwakateDiv);
 
 //12. 配列から最大値を探す
 let numarray = [3, 4, 56, 7, 43, 25, 44, 67];
-console.log(Math.max(...numarray));
+console.log(Math.max(numarray));
+const container4 = document.getElementById("mathmax");
+const maxnumDiv = document.createElement("div");
+maxnumDiv.innerText = Math.max(numarray);
+container4.appendChild(maxnumDiv);
