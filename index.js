@@ -180,5 +180,5 @@ console.log(person);
 console.log(person.nameP);
 const container5 = document.getElementById("useobj");
 const personDiv = document.createElement("div");
-personDiv.innerText(person.nameP);
+personDiv.innerText = person.nameP;
 container5.appendChild(personDiv);
