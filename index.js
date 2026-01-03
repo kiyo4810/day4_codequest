@@ -177,3 +177,8 @@ container4.appendChild(maxnumDiv);
 //オブジェクトを作るときは{}を使うよ
 let person = { nameP: "山田", ageP: 65 };
 console.log(person);
+console.log(person.nameP);
+const container5 = document.getElementById("useobj");
+const personDiv = document.createElement("div");
+personDiv.innerText(person.nameP);
+container5.appendChild(personDiv);
