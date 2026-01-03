@@ -155,3 +155,6 @@ numbers.forEach((num) => {
   // 5. 親玉（arraytoloop）の中に追加する
   container2.appendChild(animalDiv);
 });
+//11. 三項演算子
+let age = 52;
+console.log(age >= 50 ? "おじ" : "若手");
