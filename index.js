@@ -182,3 +182,9 @@ const container5 = document.getElementById("useobj");
 const personDiv = document.createElement("div");
 personDiv.innerText = person.nameP + "は" + person.ageP + "歳です。";
 container5.appendChild(personDiv);
+
+//14. フィルタリング処理
+//「配列 numbers = [1, 2, 3, 4, 5] から偶数だけを取り出して表示してください。」
+let arraynum = [1, 2, 3, 4, 5];
+let evennums = arraynum.filter((num) => num % 2 === 0);
+console.log(evennums);
