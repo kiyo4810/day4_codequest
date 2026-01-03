@@ -162,3 +162,7 @@ const container3 = document.getElementById("3kou");
 const ojiwakateDiv = document.createElement("div");
 ojiwakateDiv.innerText = age >= 50 ? "おじ" : "若手";
 container3.appendChild(ojiwakateDiv);
+
+//12. 配列から最大値を探す
+let numbers = [3, 4, 56, 7, 43, 25, 44, 67];
+console.log(Math.max(...numbers));
