@@ -188,3 +188,7 @@ container5.appendChild(personDiv);
 let arraynum = [1, 2, 3, 4, 5];
 let evennums = arraynum.filter((num) => num % 2 === 0);
 console.log(evennums);
+const container6 = document.getElementById("arrayfilter");
+const filterevenDiv = document.createElement("div");
+filterevenDiv.innerText = (...evennums);
+container6.appendChild(filterevenDiv);
